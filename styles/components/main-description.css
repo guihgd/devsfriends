@@ -4,4 +4,6 @@
 
     color: #EFDFFF;
     color: var(--light-third);
+
+    word-break: break-word;
 }

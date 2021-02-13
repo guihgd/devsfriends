@@ -6,6 +6,8 @@
     color: var(--light-third);
 
     text-transform: uppercase;
+
+    word-break: break-word;
 }
 
 .main-title.-purple {
