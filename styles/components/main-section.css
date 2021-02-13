@@ -4,10 +4,14 @@
     align-items: center;
 }
 
-.main-section > .vector {
+.main-section > .wrapper > .main-title {
+    margin-bottom: 30px;
+}
+
+.main-section.-leftimg > .vector {
     margin-right: 45px;
 }
 
-.main-section > .wrapper > .main-title {
-    margin-bottom: 30px;
+.main-section.-rightimg > .vector {
+    margin-left: 45px;
 }
