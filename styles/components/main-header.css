@@ -1,0 +1,28 @@
+.main-header {
+    background-color: #EFDFFF;
+    background-color: var(--light-third);
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 120px;
+}
+
+.main-header > .navigation > .link {
+    line-height: 80px;
+    margin-left: 50px;
+
+    display: inline-block;
+
+    font-size: 25px;
+    font-weight: 500;
+
+    color: #7B2CBF;
+    color: var(--medium-second);
+
+    transition: all 100ms cubic-bezier(0, 0, 1, 2.70);
+}
+
+.main-header > .navigation > .link:hover {
+    transform: scale(1.1);
+}
