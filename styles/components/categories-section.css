@@ -1,0 +1,22 @@
+.categories-section {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.categories-section > .title {
+    font-weight: 500;
+    font-size: 30px;
+
+    color: #EFDFFF;
+    color: var(--light-third);
+
+    margin: 70px 0 30px 0;
+}
+
+.categories-section > .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 325px);
+    grid-auto-rows: 375px;
+
+    gap: 20px;
+}
