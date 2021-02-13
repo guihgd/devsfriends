@@ -24,10 +24,11 @@
         <link rel="stylesheet" href="styles/components/main-button.css">
         <link rel="stylesheet" href="styles/components/person-card.css">
         <link rel="stylesheet" href="styles/components/main-footer.css">
+        <link rel="stylesheet" href="styles/components/mobile-menu.css">
         <link rel="stylesheet" href="styles/components/rules/responsive.css">
     </head>
-    <body>
-        <header class="main-header">
+    <body id="body">
+        <header id="header" class="main-header">
             <a style="height: 80px;" href="#">
                 <img class="logo" src="assets/images/logo/devs-friends-logo.svg" alt="Logo Dev's Friend's" title="Dev's Friend's" width="100" height="80">
             </a>
@@ -36,6 +37,20 @@
                 <a class="link" href="">Parceiros</a>
                 <a class="link" href="">Sobre</a>
             </nav>
+
+            <div id="mobileClosed" class="mobile-opener" onclick="mobileMenuShow()">
+            </div>
+
+            <nav id="navmob" class="navigationmobile">
+                <div class="navclosebx"><div class="navclose" onclick="mobileMenuShow()"></div></div>
+                <ul class="ulist">
+                    <li class="list"><a class="link" href="">Home</a></li>
+                    <li class="list"><a class="link" href="">Parceiros</a></li>
+                    <li class="list"><a class="link" href="">Sobre</a></li>
+                </ul>
+                <img class="logo" src="assets/images/logo/devs-friends-center-logo.svg" alt="Logo Dev's Friend's" title="Dev's Friend's" width="100" height="80">
+            </nav>
+            
         </header>
 
         <main class="main-content">
@@ -150,5 +165,6 @@
                 <a class="link" href="" target="_blank"><img class="icon" src="assets/images/icons/socials/github.svg" alt="Social Icon" title="Github" width="30" height="30"></a>
             </div>
         </footer>
+        <script src="scripts/index.js"></script>
     </body>
 </html>

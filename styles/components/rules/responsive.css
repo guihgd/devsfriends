@@ -32,6 +32,14 @@
     .flxclrv {
         flex-direction: column;
     }
+
+    .navigation {
+        display: none;
+    }
+
+    .mobile-opener {
+        display: inline-block;
+    }
   }
 
   @media only screen and (max-width: 580px) {
