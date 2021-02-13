@@ -17,3 +17,7 @@
 .main-section.-rightimg > .vector {
     margin-left: 45px;
 }
+
+.flxclrv {
+    flex-direction: row-reverse;
+}

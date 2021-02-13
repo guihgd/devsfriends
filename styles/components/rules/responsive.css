@@ -1,6 +1,6 @@
 @media only screen and (max-width: 820px) {
     .main-header {
-        padding: 0 50px !important;
+        padding: 0 50px;
     }
 
     .main-section {
@@ -8,11 +8,11 @@
     }
 
     .main-section.-leftimg > .vector {
-        margin-right: 0 !important;
+        margin-right: 0;
     }
 
     .main-section.-rightimg > .vector {
-        margin-left: 0px !important;
+        margin-left: 0px;
     }
 
     .main-section > .wrapper > .main-title {
@@ -30,27 +30,23 @@
     }
 
     .flxclrv {
-        flex-direction: column !important;
+        flex-direction: column;
     }
-  }
-
-  .flxclrv {
-      flex-direction: row-reverse;
   }
 
   @media only screen and (max-width: 580px) {
     .main-title {
-        font-size: 50px !important;
+        font-size: 50px;
     }
   }
 
   @media only screen and (max-width: 495px) {
     .main-title {
-        font-size: 40px !important;
+        font-size: 40px;
     }
 
     .main-description {
-        font-size: 17px !important;
+        font-size: 17px;
     }
   }
 
@@ -61,7 +57,7 @@
       }
 
       .categories-section > .title {
-          font-size: 25px !important;
+          font-size: 25px;
       }
   }
 
@@ -72,10 +68,10 @@
     }
 
     .main-title {
-        font-size: 30px !important;
+        font-size: 30px;
     }
 
     .main-description {
-        font-size: 15px !important;
+        font-size: 15px;
     }
   }
