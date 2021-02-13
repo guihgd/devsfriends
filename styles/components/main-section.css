@@ -1,0 +1,13 @@
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-section > .vector {
+    margin-right: 45px;
+}
+
+.main-section > .wrapper > .main-title {
+    margin-bottom: 30px;
+}
