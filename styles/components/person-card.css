@@ -41,8 +41,10 @@
 }
 
 .person-card > .name {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
+
+    text-align: center;
 
     color: #EFDFFF;
     color: var(--light-third);

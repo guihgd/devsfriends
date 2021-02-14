@@ -34,6 +34,10 @@
     margin-bottom: 50px;
 }
 
+.navigationmobile > .logo {
+    margin-bottom: 100px;
+}
+
 .rmja {
     justify-content: unset !important;
     align-items: unset !important;
